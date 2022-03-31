@@ -4,67 +4,59 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Fontes-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=PT+Sans&family=Quicksand:wght@300&family=Ubuntu&display=swap"
+			rel="stylesheet"
+		/>
+		<!--Fim das fontes-->
+
+		<link rel="stylesheet" type="text/css" href="style.css" />
 		<title>Meu Portfólio</title>
-		<div
-			id="navegação"
-			style="text-align: center; padding-bottom: 10px"
-		></div>
+		<nav class="nav">
+			<a class="linksDoNav" href="#hardskills">Hard-skills</a>
+			<a class="linksDoNav" href="#softskills">Soft-skills</a>
+			<a
+				class="linksDoNav"
+				href="https://github.com/jjgouveia/"
+				target="_blank"
+				>GitHub</a
+			>
+			<a
+				class="linksDoNav"
+				href="https://www.linkedin.com/in/jarbasgouveia/"
+				target="_blank"
+				>Linkedin</a
+			>
+		</nav>
 	</head>
 	<body>
-		<section
-			id="geral"
-			style="
-				background: whitesmoke;
-				border-radius: 10px;
-				padding: 15px;
-				width: 500px;
-				margin: auto;
-				box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
-			"
-		>
-			<nav style="font-family: monospace; text-align: center">
-				<a href="#hardskills">Hard-skills</a>
-				<a href="#softskills">Soft-skills</a>
-				<a href="https://github.com/jjgouveia/" target="_blank">GitHub</a>
-				<a href="https://www.linkedin.com/in/jarbasgouveia/" target="_blank"
-					>Linkedin</a
-				>
-				<hr />
-			</nav>
-			<div style="text-align: center">
-				<img
-					id="eu"
-					src="/eu.jpg"
-					alt="Uma foto minha sorrindo"
-					style="border-radius: 50%"
-					width="200px"
-				/>
+		<!--Inicio da sessão-->
+		<section id="geral">
+			<div id="containerFotoPerfil">
+				<img id="fotoPerfil" src="/eu.jpg" alt="Uma foto minha sorrindo" />
 			</div>
-			<h1
-				style="
-					font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-						Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
-						'Helvetica Neue', sans-serif;
-					text-align: center;
-				"
-			>
-				Jarbas "Júnior" Gouveia
-			</h1>
-			<h2 style="text-align: center">Meu Portfólio</h2>
+			<h1>Jarbas "Júnior" Gouveia</h1>
+			<h2>Meu Portfólio</h2>
 
-			<div id="descrição" style="text-align: center; padding-bottom: 40px">
+			<div id="descrição">
 				<em>
-					Olá, seja bem-vinda(o)! Sou o Jarbas Gouveia para muitos e o
-					Júnior (meu último nome) Gouveia para outros e sinta-se a vontade
-					para se referir como preferir. Natural de Recife (PE), venho num
-					processo de transição de carreira e vida acadêmica do Direito
-					para a área de Tecnologia, que sempre foi a minha grande paixão
-					desde a infância.
+					Olá, seja bem-vinda(o)! Sou o
+					<strong>Jarbas Gouveia</strong> para muitos e o
+					<strong>Júnior</strong> (meu último nome) Gouveia para outros e
+					sinta-se a vontade para se referir como preferir. Natural de
+					Recife (PE), venho num processo de transição de carreira e vida
+					acadêmica do Direito para a área de Tecnologia, que sempre foi a
+					minha grande paixão desde a infância. Atualmente estudo
+					<strong>Desenvolvimento Web</strong> na
+					<strong style="color: green">Trybe</strong>.
 				</em>
 			</div>
-			<div id="habilidade">
-				<h3>Habilidades</h3>
-				<h4 id="hardskills"><i>Hard-Skills</i></h4>
+			<div class="habilidades">
+				<h3>Habilidades desenvolvidas:</h3>
+				<h4 id="hardskills">Hardskills</h4>
 				<ul>
 					<li><strong>Unix</strong></li>
 					<li>Bash</li>
@@ -72,7 +64,7 @@
 					<li>GitHub</li>
 					<li>HTML Semântico</li>
 				</ul>
-				<h4 id="softskills">Soft-skills</h4>
+				<h4 id="softskills">Softskills</h4>
 				<ul>
 					<li>Comunicação</li>
 					<li>Autoliderança</li>
@@ -80,21 +72,21 @@
 					<li><strong>Assertividade</strong></li>
 				</ul>
 			</div>
-			<div
-				id="retornatopo"
-				style="text-align: center; font-family: monospace"
-			>
-				<hr />
-				<a href="#eu" style="padding: auto">Retorna ao topo da página</a>
+		</section>
+		<hr />
+		<!--Fim da sessão-->
+		<footer>
+			<nav class="nav">
+				<a class="linksDoNav" href="#eu">Retorna ao topo da página</a>
 				<a
+					class="linksDoNav"
 					href="https://diolinux.com.br/"
 					target=""
 					rel="noopener noreferrer"
 				>
 					Indicação de Leitura</a
 				>
-			</div>
-		</section>
-		<footer style="padding: 15px"></footer>
+			</nav>
+		</footer>
 	</body>
 </html>
