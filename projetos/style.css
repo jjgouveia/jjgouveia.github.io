@@ -1,0 +1,103 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(253, 251, 251);
+}
+ol li {
+  list-style: decimal;
+}
+
+/*  */
+
+main {
+  border-radius: 10px;
+  width: 500px;
+  margin: auto;
+  margin-top: 135px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.562);
+}
+
+#cabecalho {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: rgb(79, 187, 110);
+  text-align: center;
+}
+#minha_foto {
+  width: 30%;
+  border-radius: 100%;
+  padding: 15px 0px 0px;
+}
+.fotoDePerfil {
+  text-align: center;
+  display: block;
+  margin-top: 15%;
+}
+.conteiner {
+  width: 100%;
+}
+
+#nome {
+  text-align: center;
+}
+
+.licoes_wrapper {
+  display: flex;
+  margin: auto;
+  padding: 5% 0px 2%;
+}
+#licoes_aprendidas {
+  width: 50%;
+}
+
+#licoes_aprendidas ol {
+  padding-bottom: 515%;
+}
+
+.licoes_wrapper ol li,
+ul li {
+  width: 90%;
+}
+
+.licoes_wrapper > div > p {
+  padding-left: 20px;
+}
+#artigo {
+  width: 75%;
+  text-align: center;
+  margin-top: 16px;
+  margin: auto;
+}
+#artigo span {
+  color: green;
+}
+aside {
+  border-top: 1px solid grey;
+  text-align: justify;
+  padding: 2% 0px 5%;
+  width: 90%;
+  margin: auto;
+  line-height: 120%;
+}
+nav {
+  text-align: center;
+  padding: 0;
+  background-color: rgb(192, 250, 188);
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  font-size: 15px;
+  padding: 5px 0px 5px;
+}
+#rodape {
+  text-align: center;
+  padding-top: 2%;
+  font-size: 12px;
+}
+
+table {
+  display: inline-block;
+  font-size: 10px;
+}
