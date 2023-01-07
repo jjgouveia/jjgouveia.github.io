@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Projects({
+function ProjectCard({
   name, thumbnail, description, links,
 }) {
   return (
@@ -32,10 +32,10 @@ function Projects({
   );
 }
 
-Projects.propTypes = {
+ProjectCard.propTypes = {
   name: PropTypes.string,
   thumbnail: PropTypes.string,
   description: PropTypes.string,
 }.isRequired;
 
-export default Projects;
+export default ProjectCard;
