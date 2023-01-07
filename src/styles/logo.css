@@ -1,0 +1,44 @@
+.logo {
+    font-size: 1.5rem;
+    padding-left: 2%;
+    padding-bottom: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.typing::before {
+    content: "{ ";
+    font-size: 2rem;
+    color:  #00aefe;
+    font-weight: 700;
+}
+
+.typing::after {
+    content: " }";
+    font-size: 2rem;
+    color: #00aefe;
+    font-weight: 700;
+}
+
+.typing {
+    width: 12ch;
+    animation: typing 2s steps(20), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
