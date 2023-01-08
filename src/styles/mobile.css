@@ -1,5 +1,14 @@
 @media (max-width: 465px) {
 
+  header > nav {
+    padding-right: unset;
+  }
+
+  footer {
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+
   .header-buttons {
     visibility: collapse;
     opacity: 0;
