@@ -7,7 +7,7 @@ export default function Profile() {
     <section className="home" id="home">
       <div className="profile">
         <JackInTheBox className="profile" childClassName="profile__foto">
-          <img className="profile__foto" src={foto} alt="foto" />
+          <img className="profile__foto" src={foto} alt="Foto do Jr Gouveia" />
         </JackInTheBox>
         <div className="profile-intern-container">
           <Fade className="profile__name">

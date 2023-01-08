@@ -6,6 +6,7 @@
 .nav-btn {
   background-color: #5c1dee00;
   border: none;
+
 }
 
 .dropdown-options {
@@ -41,17 +42,67 @@
   border-radius: 5px;
 }
 
+
+
 .menu {
   display: flex;
-  gap: 40px;
-  font-size: 1.25rem;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu span {
+  transition: all .3s;
 }
 
 .menu li {
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.25s;
+  padding-left: .5em;
+  width: 115px;
+  height: 45px;
+  
 }
 
-.menu li:hover {
+.menu a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: .4s;
+  border-bottom: 1px solid transparent;
+}
+
+.menu a:hover {
   border-color: var(--primary-color);
 }
+
+a > .fa-solid {
+  padding-right: .5em;
+}
+
+.social-contacts {
+  display: flex;
+  width: 50px;
+  justify-content: space-around;
+}
+
+@media (width < 980px) {
+
+  a > .fa-solid {
+    font-size: 18px;
+    padding-right: unset;
+  }
+  
+    .menu li {
+      padding-left: unset;
+      width: 50px;
+    }
+    
+  
+    .menu span {
+      visibility: collapse;
+      opacity: 0;
+      text-align: center;
+    }
+  }
+

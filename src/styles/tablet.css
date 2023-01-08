@@ -1,11 +1,10 @@
-/* TABLET */
 
-@media (max-width: 960px) {
-  nav {
-    display: none;
-  }
+
+@media (width < 980px) {
+
+
   header {
-    max-width: 650px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
   }
@@ -15,10 +14,11 @@
     width: 100%;
   }
 
-  .navigation-icon {
+  /* .navigation-icon {
+    transition: all 1s;
     visibility: visible;
     font-size: 1.5rem;
-  }
+  } */
 
   .home {
     display: flex;

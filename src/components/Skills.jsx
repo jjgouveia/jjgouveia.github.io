@@ -51,10 +51,6 @@ export default function Skills() {
             <i className="fa-brands fa-git" />
             <span>Git</span>
           </li>
-          <li className="skills__icon">
-            <i className="fa-brands fa-aws" />
-            <span>AWS</span>
-          </li>
         </ul>
       </Fade>
     </div>

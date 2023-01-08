@@ -9,7 +9,6 @@ import '../styles/projetos.css';
 import '../styles/contato.css';
 import '../styles/tablet.css';
 import '../styles/mobile.css';
-import '../styles/animations.css';
 import Header from '../components/Header';
 import SobreMim from '../components/SobreMim';
 import Skills from '../components/Skills';
