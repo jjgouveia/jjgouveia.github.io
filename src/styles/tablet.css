@@ -13,12 +13,6 @@
     width: 100%;
   }
 
-  /* .navigation-icon {
-    transition: all 1s;
-    visibility: visible;
-    font-size: 1.5rem;
-  } */
-
   .home {
     display: flex;
     flex-direction: column;
