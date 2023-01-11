@@ -6,7 +6,7 @@ export default function Skills() {
     <div className="skills">
       <h3 className="skills__tittle">Skills</h3>
       <ul className="skills__container">
-        <Slide direction="right">
+        <Slide triggerOnce direction="right">
           <li className="skills__icon">
             <i className="fab fa-html5" />
             <span>HTML</span>
@@ -22,6 +22,10 @@ export default function Skills() {
           <li className="skills__icon">
             <i className="fa-brands fa-node" />
             <span>NodeJS</span>
+          </li>
+          <li className="skills__icon">
+            <i className="fa-brands fa-java" />
+            <span>Java</span>
           </li>
           <li className="skills__icon">
             <i className="fa-solid fa-server" />
