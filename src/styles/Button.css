@@ -1,0 +1,26 @@
+.button-component {
+    display: flex;
+    width: 200px;
+    border: 1px solid #efefef45;
+    border-radius: 24px;
+    font-size: 24px;
+    padding: .5rem 0;
+    transition: all .5s;
+}
+
+.button-component:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.button-component a {
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}
+
+.button-component i {
+    padding-right: .5rem;
+    font-size: 22px;
+    text-align: center;
+    justify-content: center;
+}

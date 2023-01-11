@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade, JackInTheBox } from 'react-awesome-reveal';
 import foto from '../img/me_resized.png';
+import Button from './Button';
 
 export default function Profile() {
   return (
@@ -18,6 +19,11 @@ export default function Profile() {
           </span>
         </div>
       </div>
+      <Button
+        title="Baixar CV"
+        iconClass="fa-solid fa-file"
+        link='https://drive.google.com/file/d/1PE2nbj1drLp9KRuU2DAStfZ2F4xai-gp/view?usp=share_link" target="_blank" rel="noreferrer'
+      />
     </section>
   );
 }

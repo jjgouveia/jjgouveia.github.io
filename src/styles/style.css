@@ -72,5 +72,9 @@ footer {
   .onHeader {
     visibility: collapse;
   }
+
+  .button-component {
+    visibility: hidden;
+  }
 }
 

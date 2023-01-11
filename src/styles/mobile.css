@@ -42,11 +42,12 @@
   }
 
   .profile {
-    margin-top: -70px;
+    margin-top: -120px;
   }
 
   .profile-intern-container {
     line-height: 40px;
+    padding-bottom: 35px;
   }
   
 
@@ -56,7 +57,7 @@
   }
 
   .profile__name {
-    padding: 30px 0;
+    padding: 10px 0;
   }
 
   .profile img {
