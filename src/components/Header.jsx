@@ -4,22 +4,27 @@ import '../styles/header.css';
 export default function Header() {
   return (
     <header>
-      <div className="logo">
-        <div className="typing">
-          Jr Gouveia
+      <div style={{
+        display: 'flex', width: '100%', justifyContent: 'center', alignItems: 'center',
+      }}
+      >
+        <div className="logo">
+          <div className="typing">
+            Jr Gouveia
+          </div>
         </div>
-      </div>
-      <div className="social-contacts onHeader">
-        <li>
-          <a href="https://github.com/jjgouveia" target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-github" />
-          </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/jarbasgouveia/" target="_blank" rel="noreferrer">
-            <i className="fa-brands fa-linkedin-in" />
-          </a>
-        </li>
+        <div className="social-contacts onHeader">
+          <li>
+            <a href="https://github.com/jjgouveia" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-github" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jarbasgouveia/" target="_blank" rel="noreferrer">
+              <i className="fa-brands fa-linkedin-in" />
+            </a>
+          </li>
+        </div>
       </div>
       <nav className="header-buttons">
         <ul className="menu">

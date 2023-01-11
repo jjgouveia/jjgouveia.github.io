@@ -13,6 +13,7 @@
     visibility: collapse;
     opacity: 0;
     overflow: hidden;
+    display: none;
   }
 
   body {
