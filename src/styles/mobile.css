@@ -123,10 +123,10 @@
   }
 
   .projetos {
-    height: 1800px;
+    min-height: 1800px;
     display: flex;
     padding-top: -35rem;
-    margin-bottom: 170%;
+    /* margin-bottom: 170%; */
   }
 
   .card-container{
