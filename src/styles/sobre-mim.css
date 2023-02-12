@@ -58,6 +58,7 @@
 .skills__icon {
   width: 128px;
   height: 128px;
+  border-radius: 24px;
   background-color: var(--icon-color);
   display: flex;
   flex-direction: column;

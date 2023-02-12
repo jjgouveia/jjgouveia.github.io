@@ -10,7 +10,7 @@ export default function Header() {
       >
         <div className="logo">
           <div className="typing">
-            Jr Gouveia
+            <span>Jr Gouveia</span>
           </div>
         </div>
         <div className="social-contacts onHeader">

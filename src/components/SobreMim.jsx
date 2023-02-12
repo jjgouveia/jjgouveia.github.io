@@ -12,7 +12,18 @@ export default function SobreMim() {
         <Slide className="description" childClassName="description__text" direction="left">
           <p className="description__text">
             Sempre curioso, me apaixonei ainda criança por tecnologia. Quando
-            adolescente criei meu primeiro sistema Android personalizado e
+            adolescente criei
+            {' '}
+            <a
+              href="https://eusouandroid.co/tutorial-rom-lg-optimus-me-p350-androm-x2-2-canary/"
+              target="_blank"
+              rel="noreferrer"
+              style={{ color: '#42A5F5' }}
+            >
+              meu primeiro sistema personalizado Android
+            </a>
+            {' '}
+            e
             desde lá a programação faz parte da minha vida. Hoje sou um
             desenvolvedor/estudante web full stack com profundo interesse no
             universo Back-End. Em poucas palavras, crio sites e sistemas que
