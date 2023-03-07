@@ -22,7 +22,7 @@ export default function Profile() {
       <Button
         title="Baixar CV"
         iconClass="fa-solid fa-file"
-        link="https://drive.google.com/file/d/1VBf_kohmm0l_L_IWgl064OCh5sQn1IjK/view?usp=sharing"
+        link="https://drive.google.com/file/d/1F6lkFpFNx8lYejywSuGIJ78_RcTT_hS1/view?usp=sharing"
         target="_blank"
         rel="noreferrer"
       />

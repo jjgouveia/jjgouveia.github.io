@@ -83,7 +83,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1PE2nbj1drLp9KRuU2DAStfZ2F4xai-gp/view?usp=share_link" target="_blank" rel="noreferrer">
+            <a href="https://drive.google.com/file/d/1F6lkFpFNx8lYejywSuGIJ78_RcTT_hS1/view?usp=sharing" target="_blank" rel="noreferrer">
               <i className="fa-solid fa-file" />
               <span>Currículo</span>
             </a>
