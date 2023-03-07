@@ -24,8 +24,20 @@ export default function Skills() {
             <span>NodeJS</span>
           </li>
           <li className="skills__icon">
+            <i className="fa-brands fa-python" />
+            <span style={{ textAlign: 'center' }}>
+              Python
+              {' '}
+              <span style={{ fontSize: '.8rem' }}>(Aprendendo)</span>
+            </span>
+          </li>
+          <li className="skills__icon">
             <i className="fa-brands fa-java" />
-            <span>Java</span>
+            <span style={{ textAlign: 'center' }}>
+              Java
+              {' '}
+              <span style={{ fontSize: '.8rem' }}>(Aprendendo)</span>
+            </span>
           </li>
           <li className="skills__icon">
             <i className="fa-solid fa-server" />
@@ -54,6 +66,10 @@ export default function Skills() {
           <li className="skills__icon">
             <i className="fa-brands fa-git" />
             <span>Git</span>
+          </li>
+          <li className="skills__icon">
+            <i className="fa-brands fa-google" />
+            <span>Google Cloud</span>
           </li>
         </Slide>
       </ul>
