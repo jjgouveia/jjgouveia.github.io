@@ -46,6 +46,17 @@ const projectList = [
       repository: 'https://github.com/jjgouveia/project-trybe-futebol-clube',
     },
   },
+  {
+    id: 6,
+    projectName: 'Bloguify',
+    image: 'https://i.ibb.co/tKtV6Yz/Screenshot-44.png',
+    description: 'Desenvolvi um blog com login, feed e tela de usuários baseados no conceito de Material UI. A aplicação conta com modais específicos para visualização dos comentários e para os detalhes dos usuários. A tela de login conta com call-to-action e validação dos campos através do React Hook Form.',
+    links: {
+      repository: 'https://github.com/jjgouveia/bloguify-reactjs',
+      deploy: 'https://bloguify.vercel.app/',
+
+    },
+  },
 ];
 
 export default projectList;
