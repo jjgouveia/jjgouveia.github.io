@@ -51,9 +51,14 @@
 }
 
 .card h3 {
+  
   padding: .5rem;
-  height: 38%;
+  height: 30%;
   font-size: medium;
+}
+
+.description-container {
+  height: 40%;
 }
 
 .links-container {
@@ -72,4 +77,15 @@
 
 .links-container a:hover {
   color: #00aefe;
+}
+
+@media (max-width: 465px) {
+
+  .description-container {
+    height: 37%;
+  }
+
+  .card {
+    min-height: 480px;
+  }
 }

@@ -8,7 +8,9 @@ function ProjectCard({
     <div className="card">
       <img src={thumbnail} alt={name} />
       <h2>{ name }</h2>
-      <h3>{ description }</h3>
+      <div className="description-container">
+        <h3>{ description }</h3>
+      </div>
       <div className="links-container">
         <a href={links.repository} target="_blank" rel="noreferrer">
           <span>
