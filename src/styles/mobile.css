@@ -51,7 +51,7 @@
     line-height: 40px;
     padding-bottom: 35px;
   }
-  
+
 
   .profile__text {
     font-size: 2.0rem;
@@ -69,7 +69,6 @@
   .section__tittle, .section__tittle_padded {
     font-size: 4.5rem
   }
-
 
 
   .description {
@@ -117,28 +116,17 @@
     width: 90%;
     display: flex;
     align-items: center;
-    gap: 90px;
+    gap: 120px;
   }
 
   .skills__container {
     justify-content: center;
   }
 
-  .projetos {
-    min-height: 1800px;
-    display: flex;
-    padding-top: -35rem;
-    /* margin-bottom: 170%; */
-  }
-
   .card-container{
     display: flex;
     justify-content: center;
 
-  }
-
-  .card {
-    height: 420px;
   }
 
   .card-container img {
@@ -150,10 +138,10 @@
   }
 
   .links-container {
-    padding-top: .5rem; 
+    padding-top: .5rem;
   }
 
-  
+
   .card h3 {
     text-align: justify;
     font-size: 1.0rem;
@@ -162,8 +150,11 @@
   }
 
   .contatos {
-    height: 700px;
-    margin-bottom: 450px;
+    padding-top: unset;
+    max-height: auto;
+    margin-top: 50%;
+    height: 1050px;
+    padding-bottom: 50px;
   }
 
   .social-container {

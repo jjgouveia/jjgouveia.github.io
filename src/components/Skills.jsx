@@ -69,7 +69,7 @@ export default function Skills() {
           </li>
           <li className="skills__icon">
             <i className="fa-brands fa-google" />
-            <span>Google Cloud</span>
+            <span style={{ textAlign: 'center' }}>Google Cloud</span>
           </li>
         </Slide>
       </ul>

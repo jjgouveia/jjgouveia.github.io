@@ -27,10 +27,12 @@ export default function MainPage() {
           <SobreMim />
           <Skills />
         </section>
-        <Projetos />
-        <Contatos />
+        <section style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+          <Projetos />
+          <Contatos />
+          <Footer />
+        </section>
       </main>
-      <Footer />
     </>
   );
 }
