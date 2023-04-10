@@ -11,14 +11,14 @@
 .typing::before {
     content: "{ ";
     font-size: 2rem;
-    color:  #00aefe;
+    color:  var(--primary-color);
     font-weight: 700;
 }
 
 .typing::after {
     content: " }";
     font-size: 2rem;
-    color: #00aefe;
+    color:  var(--primary-color);
     font-weight: 700;
 }
 

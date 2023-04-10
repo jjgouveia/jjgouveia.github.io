@@ -15,6 +15,14 @@
   align-items: center;
   gap: 45px;
   transition: all .5s;
+  border: 1px solid red;
+  width: 100%;
+  margin-top: 25;
+}
+
+.profile-intern-container {
+  margin: 0 auto;
+
 }
 
 .profile__text {

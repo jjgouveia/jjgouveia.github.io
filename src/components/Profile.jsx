@@ -1,6 +1,5 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
-// import foto from '../img/jr_gouveia_foto_perfil.png';
 import Button from './Button';
 
 export default function Profile() {
