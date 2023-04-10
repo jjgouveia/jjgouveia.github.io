@@ -7,9 +7,6 @@ export default function Profile() {
   return (
     <section className="home" id="home">
       <div className="profile">
-        {/* <JackInTheBox className="profile" childClassName="profile__foto">
-          <img className="profile__foto" src={foto} alt="Foto do Jr Gouveia" />
-        </JackInTheBox> */}
         <div className="profile-intern-container">
           <Fade className="profile__name">
             <h1 className="profile__name">Jr Gouveia</h1>
