@@ -20,7 +20,7 @@
 .menu li {
   width: 115px;
   height: 45px;
-  
+
 }
 
 .menu a {
@@ -59,13 +59,13 @@ a > .fa-solid {
     font-size: 18px;
     padding-right: unset;
   }
-  
+
     .menu li {
       padding-left: unset;
       width: 50px;
     }
-    
-  
+
+
     .menu span {
       visibility: collapse;
       opacity: 0;
@@ -126,7 +126,7 @@ a > .fa-solid {
   .foot-links i {
       position: relative;
       font-size: 25px;
-      
+
   }
 
   .social-contacts {

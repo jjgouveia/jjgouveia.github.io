@@ -1,6 +1,6 @@
 import React from 'react';
 import { Fade, JackInTheBox } from 'react-awesome-reveal';
-import foto from '../img/me_resized.png';
+import foto from '../img/jr_gouveia_foto_perfil.png';
 import Button from './Button';
 
 export default function Profile() {
