@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/header.css';
+import variables from '../assets/variables';
 
 export default function Header() {
   return (
@@ -35,7 +36,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1F6lkFpFNx8lYejywSuGIJ78_RcTT_hS1/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href={variables.cv} target="_blank" rel="noreferrer">
               <i className="fa-solid fa-file" />
               <span>Currículo</span>
             </a>
@@ -83,7 +84,7 @@ export default function Header() {
             </a>
           </li>
           <li>
-            <a href="https://drive.google.com/file/d/1F6lkFpFNx8lYejywSuGIJ78_RcTT_hS1/view?usp=sharing" target="_blank" rel="noreferrer">
+            <a href={variables.cv} target="_blank" rel="noreferrer">
               <i className="fa-solid fa-file" />
               <span>Currículo</span>
             </a>

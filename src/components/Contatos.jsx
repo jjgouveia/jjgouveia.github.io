@@ -1,17 +1,17 @@
 import React from 'react';
-import { Fade, Slide } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 
 export default function Contatos() {
   return (
     <section className="contatos" id="contato">
-      <Slide triggerOnce className="section__tittle" direction="up">
+      <Fade triggerOnce className="section__tittle" direction="up">
         <h2 className="section__tittle">Contato</h2>
-      </Slide>
+      </Fade>
       <ul className="contato-container">
         <li>
           <h3>Contato</h3>
         </li>
-        <Slide>
+        <Fade>
           <li>
             <div className="contato-item">
               <i className="fas fa-phone contato-item__icon" />
@@ -30,7 +30,7 @@ export default function Contatos() {
               <span className="contato-iten__text">(81) 9 9173-4478</span>
             </div>
           </li>
-        </Slide>
+        </Fade>
       </ul>
       <ul className="social-container">
         <Fade>
@@ -67,7 +67,7 @@ export default function Contatos() {
         <li>
           <h3>Links</h3>
         </li>
-        <Slide direction="right">
+        <Fade>
           <li>
             <a href="#home">Início</a>
           </li>
@@ -80,7 +80,7 @@ export default function Contatos() {
           <li>
             <a href="#contato">Contato</a>
           </li>
-        </Slide>
+        </Fade>
       </ul>
     </section>
   );

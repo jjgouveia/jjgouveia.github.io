@@ -1,6 +1,7 @@
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Button from './Button';
+import variables from '../assets/variables';
 
 export default function Profile() {
   return (
@@ -18,7 +19,7 @@ export default function Profile() {
       <Button
         title="Baixar CV"
         iconClass="fa-solid fa-file"
-        link="https://drive.google.com/file/d/1F6lkFpFNx8lYejywSuGIJ78_RcTT_hS1/view?usp=sharing"
+        link={variables.cv}
         target="_blank"
         rel="noreferrer"
       />
