@@ -2,6 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Button from './Button';
 import variables from '../assets/variables';
+import meLogo from '../img/me_logo.png';
 
 export default function Profile() {
   return (
@@ -14,6 +15,7 @@ export default function Profile() {
           <span className="profile__text">
             Full Stack Web Developer
           </span>
+          <img src={meLogo} alt="Foto do Jr Gouveia" className="meLogo" />
         </div>
       </div>
       <Button

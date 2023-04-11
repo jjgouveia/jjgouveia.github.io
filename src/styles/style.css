@@ -96,4 +96,8 @@ footer {
   .button-component {
     visibility: hidden;
   }
+
+  .meLogo {
+    visibility: hidden;
+  }
 }
