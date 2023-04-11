@@ -19,6 +19,7 @@
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+
 .card {
   text-align: justify;
   position: relative;
@@ -27,24 +28,22 @@
   width: 320px;
   height: 450px;
   word-break:keep-all;
-  border: 1px solid hsla(0, 20%, 98%, 0.342);
+  border: 1px solid hsla(0, 88%, 64%, 0.342);
   border-radius: 5px;
-
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
-
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
 }
 
 .card:hover {
-
-  box-shadow:0px 0px 5px 2px #00aefe;
-  -webkit-transition: width 0.3s;
-  transition: width 0.3s;
-  -moz-transition: width 0.3s;
-  -o-transition: width 0.3s;
+  box-shadow:0px 0px 5px 2px var(--primary-color);
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  -moz-transition: width 0.5s;
+  -o-transition: width 0.5s;
 }
+
 
 .card h2 {
   padding: .5rem .2rem .5rem .5rem;
@@ -64,10 +63,11 @@
 }
 
 .description-container {
-  height: 40%;
+  height: 38%;
 }
 
 .links-container {
+  border-top: 1px solid hsla(0, 88%, 64%, 0.342);
   display: flex;
   justify-content: space-around;
   padding-bottom: .5rem;
@@ -82,7 +82,8 @@
 }
 
 .links-container a:hover {
-  color: #00aefe;
+  color: var(--primary-color);
+  transition: .5s;
 }
 
 @media (max-width: 465px) {

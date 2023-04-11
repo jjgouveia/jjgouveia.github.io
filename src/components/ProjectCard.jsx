@@ -6,7 +6,9 @@ function ProjectCard({
 }) {
   return (
     <div className="card">
-      <img src={thumbnail} alt={name} />
+      <a href={links.deploy || links.repository} target="_blank" rel="noreferrer">
+        <img src={thumbnail} alt={name} />
+      </a>
       <h2>{ name }</h2>
       <div className="description-container">
         <h3>{ description }</h3>
