@@ -56,19 +56,19 @@
   }
 
   .meLogo {
-    margin-left: 118px;
+    margin-left: 88px;
     bottom: 260px;
     position: absolute
   }
 
   .profile__text {
-    font-size: 2.0rem;
+    font-size: 1.5rem;
     padding: 5px .5rem;
   }
 
   .profile__name {
     padding: 10px 0;
-    font-size: 4.5rem;
+    font-size: 4rem;
   }
 
   .profile img {
