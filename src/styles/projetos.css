@@ -29,6 +29,7 @@
   height: 450px;
   word-break:keep-all;
   border: 1px solid hsla(0, 88%, 64%, 0.342);
+  background-color: var(--background-layer);
   border-radius: 5px;
   -webkit-transition: all 0.5s ease-in;
   transition: all 0.5s ease-in;
@@ -47,6 +48,7 @@
 
 .card h2 {
   padding: .5rem .2rem .5rem .5rem;
+  font-family: 'Titillium Web', sans-serif;
   background: rgb(37,37,37);
   background: -moz-linear-gradient(270deg, rgba(37,37,37,0.6699054621848739) 0%, rgba(182,12,63,1) 100%);
   background: -webkit-linear-gradient(270deg, rgba(37,37,37,0.6699054621848739) 0%, rgba(182,12,63,1) 100%);
@@ -56,7 +58,6 @@
 
 .card h3 {
   padding: .5rem;
-  height: 30%;
   font-size: 1rem;
   font-family: 'Source Sans Pro';
   letter-spacing: 1px;
@@ -64,6 +65,9 @@
 
 .description-container {
   height: 38%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  padding: .5rem 0;
 }
 
 .links-container {
@@ -75,9 +79,8 @@
 }
 
 .links-container a {
-  padding-top: .7rem;
+  padding-top: .5rem;
   text-align: center;
-  width: 100%;
   transition: .5s;
 }
 

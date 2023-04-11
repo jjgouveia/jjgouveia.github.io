@@ -1,14 +1,32 @@
 :root {
   --primary-color: #b60c3f;
   --icon-color: #252525;
+  --secondary-color: hsla(232, 100%, 60%, 0.526);
+  --background-layer: #0F1118;
 }
 
-*, :before, :after {
+*,
+:before,
+:after {
   box-sizing: border-box;
-  }
+}
 
 html {
   scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--icon-color);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 20px;
+  border: 1px solid var(--secondary-color);
 }
 
 body {
@@ -37,8 +55,10 @@ header {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  top: 0; /* Position the navbar at the top of the page */
-  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  position: fixed;
+  /* Set the navbar to fixed position */
   background-color: rgb(0, 0, 0, 0.65);
   transition: all 1s;
 }
@@ -77,4 +97,3 @@ footer {
     visibility: hidden;
   }
 }
-
