@@ -4,8 +4,8 @@ import '../styles/Button.css';
 
 export default function Button({ title, iconClass, link }) {
   return (
-    <div className="button-component">
-      <a href={link}>
+    <div className="button-component glitch-wrapper">
+      <a href={link} className="glitch">
         <i className={iconClass} />
         <span>{ title }</span>
       </a>
