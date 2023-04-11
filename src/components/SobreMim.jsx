@@ -9,7 +9,7 @@ export default function SobreMim() {
       </Slide>
       <div className="description">
         <h3 className="description__tittle">Quem sou?</h3>
-        <Slide className="description" childClassName="description__text" direction="left">
+        <Slide triggerOnce className="description" childClassName="description__text" direction="left">
           <p className="description__text">
             Sempre curioso, me apaixonei ainda criança por tecnologia. Quando
             adolescente criei

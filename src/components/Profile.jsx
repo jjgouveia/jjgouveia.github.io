@@ -11,7 +11,7 @@ export default function Profile() {
             <h1 className="profile__name">Jr Gouveia</h1>
           </Fade>
           <span className="profile__text">
-            Desenvolvedor Web Full Stack
+            Full Stack Web Developer
           </span>
         </div>
       </div>
