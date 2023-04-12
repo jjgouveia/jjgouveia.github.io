@@ -16,6 +16,7 @@ export default function Profile() {
             Full Stack Web Developer
           </span>
           <img src={meLogo} alt="Foto do Jr Gouveia" className="meLogo" />
+          <div className="test" id="cat"><div className="mirror" /></div>
         </div>
       </div>
       <Button

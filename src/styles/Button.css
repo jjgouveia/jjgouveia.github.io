@@ -7,7 +7,7 @@
     padding: .5rem 0;
     transition: all .5s;
     position: relative;
-    bottom: -150px;
+    bottom: 35px;
 }
 
 .button-component:hover {
