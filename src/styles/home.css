@@ -26,6 +26,7 @@
   font-size: 5rem;
   color: var(--primary-color);
   font-family: 'Titillium Web', sans-serif;
+  text-align: center;
 }
 
 .profile__text {
