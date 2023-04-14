@@ -19,6 +19,7 @@ export default function SobreMim() {
               target="_blank"
               rel="noreferrer"
               style={{ color: '#42A5F5' }}
+              title="Meu primeiro sistema personalizado Android"
             >
               meu primeiro sistema personalizado Android
             </a>

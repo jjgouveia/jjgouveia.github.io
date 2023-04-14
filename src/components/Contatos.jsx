@@ -39,6 +39,7 @@ export default function Contatos() {
               href="https://www.linkedin.com/in/jarbasgouveia/"
               target="_blank"
               rel="noreferrer"
+              title="Linkedin"
             >
               <i className="fab fa-linkedin" />
             </a>
@@ -48,6 +49,7 @@ export default function Contatos() {
               href="https://github.com/jjgouveia"
               target="_blank"
               rel="noreferrer"
+              title="GitHub"
             >
               <i className="fab fa-github" />
             </a>
@@ -57,6 +59,7 @@ export default function Contatos() {
               href="https://www.instagram.com/junior_gouveia"
               target="_blank"
               rel="noreferrer"
+              title="Instagram"
             >
               <i className="fab fa-instagram" />
             </a>
@@ -69,16 +72,16 @@ export default function Contatos() {
         </li>
         <Fade>
           <li>
-            <a href="#home">Início</a>
+            <a href="#home" title="Início">Início</a>
           </li>
           <li>
-            <a href="#sobre-mim">Sobre mim</a>
+            <a href="#sobre-mim" title="Sobre Mim">Sobre mim</a>
           </li>
           <li>
-            <a href="#projetos">Projetos</a>
+            <a href="#projetos" title="Projetos">Projetos</a>
           </li>
           <li>
-            <a href="#contato">Contato</a>
+            <a href="#contato" title="Contatos">Contato</a>
           </li>
         </Fade>
       </ul>

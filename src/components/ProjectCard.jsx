@@ -6,7 +6,7 @@ function ProjectCard({
 }) {
   return (
     <div className="card">
-      <a href={links.deploy || links.repository} target="_blank" rel="noreferrer">
+      <a href={links.deploy || links.repository} target="_blank" rel="noreferrer" title={name}>
         <img src={thumbnail} alt={name} />
       </a>
       <h2>{ name }</h2>
@@ -14,7 +14,7 @@ function ProjectCard({
         <h3>{ description }</h3>
       </div>
       <div className="links-container">
-        <a href={links.repository} target="_blank" rel="noreferrer">
+        <a href={links.repository} target="_blank" rel="noreferrer" title={name}>
           <span>
             {' '}
             Repositório
@@ -24,7 +24,7 @@ function ProjectCard({
           </span>
         </a>
         { links.deploy && (
-        <a href={links.deploy} target="_blank" rel="noreferrer">
+        <a href={links.deploy} target="_blank" rel="noreferrer" title={name}>
           Deploy
           {' '}
           <i className="fa-solid fa-earth-americas" />

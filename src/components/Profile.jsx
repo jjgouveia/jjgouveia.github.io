@@ -2,7 +2,7 @@ import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 import Button from './Button';
 import variables from '../assets/variables';
-import meLogo from '../img/me_logo.png';
+import meLogo from '../img/me_logo.webp';
 
 export default function Profile() {
   return (
