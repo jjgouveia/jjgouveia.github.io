@@ -7,16 +7,26 @@
 
 .testemonials-container {
     max-width: 1200px;
-    min-height: auto;
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 48px;
-    padding-bottom: 2rem;
-    padding: 5rem 0;
     overflow-y: auto;
   }
+
+  .swiper {
+  width: 320px;
+  height: 310px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  color: #fff;
+}
+
 
 .section__subtittle {
     font-family: 'Titillium Web', sans-serif;
@@ -77,3 +87,37 @@
     object-fit: cover;
     border-radius: 50%;
 }
+
+.mySwiper {
+     width: 1200px;
+}
+
+.fixed-height {
+    height: 500px;
+}
+
+.swiper-slide-testemonial {
+    width: 450px;
+}
+
+@media (max-width: 495px) {
+    .mySwiper {
+        border: 1px solid red;
+        width: 380px;
+        height: 320px;
+        padding-bottom: 2%;
+    }
+
+    .card {
+        width: 300px;
+    }
+
+    .testemonial-title {
+        font-size: 3.2rem;
+    }
+
+    .swiper-slide-testemonial {
+        width: 300px;
+    }
+}
+
