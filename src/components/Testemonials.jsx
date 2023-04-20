@@ -9,38 +9,8 @@ import 'swiper/css/effect-cards';
 
 // import required modules
 import { EffectCoverflow, Pagination } from 'swiper';
+import data from '../assets/testemonials';
 import '../styles/testemonials.css';
-
-const data = [
-  {
-    id: 1,
-    profilePic: 'https://i.imgur.com/0y0wYQq.jpg',
-    name: 'John Doe',
-    job: 'Web Developer',
-    testemonial: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.',
-  },
-  {
-    id: 2,
-    profilePic: 'https://media.licdn.com/dms/image/D4D35AQHde0rRCpJhHg/profile-framedphoto-shrink_200_200/0/1680932557523?e=1682049600&v=beta&t=1LHfPwZxFLFFmZi1mHBHUZDDiLw0FFu8VWcBsuIqLbc',
-    name: 'Anderson Gouveia',
-    job: 'Vendedor',
-    testemonial: 'Participar de um Hackathon com o Jarbas foi uma experiência incrível, pude ver o quão bem ele se destaca nas suas habilidades com código, com sua boa comunicação e sempre querendo dar o melhor no projeto inteiro. Ele sempre dá seu melhor e está lá pra quando você precisar, obrigado demais por essa experiência meu amigo!',
-  },
-  {
-    id: 3,
-    profilePic: 'https://media.licdn.com/dms/image/D4D35AQHde0rRCpJhHg/profile-framedphoto-shrink_200_200/0/1680932557523?e=1682049600&v=beta&t=1LHfPwZxFLFFmZi1mHBHUZDDiLw0FFu8VWcBsuIqLbc',
-    name: 'Anderson Gouveia',
-    job: 'Vendedor',
-    testemonial: 'Participar de um Hackathon com o Jarbas foi uma experiência incrível, pude ver o quão bem ele se destaca nas suas habilidades com código, com sua boa comunicação e sempre querendo dar o melhor no projeto inteiro. Ele sempre dá seu melhor e está lá pra quando você precisar, obrigado demais por essa experiência meu amigo!',
-  },
-  {
-    id: 4,
-    profilePic: 'https://media.licdn.com/dms/image/D4D35AQHde0rRCpJhHg/profile-framedphoto-shrink_200_200/0/1680932557523?e=1682049600&v=beta&t=1LHfPwZxFLFFmZi1mHBHUZDDiLw0FFu8VWcBsuIqLbc',
-    name: 'Anderson Gouveia',
-    job: 'Vendedor',
-    testemonial: 'Participar de um Hackathon com o Jarbas foi uma experiência incrível, pude ver o quão bem ele se destaca nas suas habilidades com código, com sua boa comunicação e sempre querendo dar o melhor no projeto inteiro. Ele sempre dá seu melhor e está lá pra quando você precisar, obrigado demais por essa experiência meu amigo!',
-  },
-];
 
 export default function Testemonials() {
   return (

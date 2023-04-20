@@ -102,8 +102,7 @@
 
 @media (max-width: 495px) {
     .mySwiper {
-        border: 1px solid red;
-        width: 380px;
+        width: 375px;
         height: 320px;
         padding-bottom: 2%;
     }
@@ -118,6 +117,10 @@
 
     .swiper-slide-testemonial {
         width: 300px;
+    }
+
+    .fixed-height {
+        height: unset;
     }
 }
 

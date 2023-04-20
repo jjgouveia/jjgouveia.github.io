@@ -104,10 +104,10 @@
 @media (max-width: 465px) {
 
   .projetos {
-    margin-top: 50%;
+    min-height: 115%;
+    margin-top: 100%;
     padding-top: unset;
     height: 3000px;
-    padding-bottom: 1.5rem;
   }
 
   .description-container {
@@ -117,7 +117,6 @@
   .card-container {
     overflow-y: scroll;
     scroll-behavior: smooth;
-    padding: 1rem 0;
   }
 
   .card {
